@@ -53,3 +53,27 @@
   font-size: 1rem;
   line-height: calc(0.25rem * 7);
 }
+
+.body-text * + h2 {
+  margin-top: calc(0.25rem * 11);
+}
+
+.body-text * + h3 {
+  margin-top: calc(0.25rem * 10);
+}
+
+.body-text * + h4 {
+  margin-top: calc(0.25rem * 8);
+}
+
+.body-text * + h5 {
+  margin-top: calc(0.25rem * 7);
+}
+
+.body-text * + h6 {
+  margin-top: calc(0.25rem * 6);
+}
+
+.body-text * + p {
+  margin-top: calc(0.25rem * 5);
+}
