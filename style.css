@@ -11,9 +11,45 @@
 ::after {
   box-sizing: border-box;
 }
+
 .body-text {
   display: grid;
   grid-template-columns: min(100%, 35em);
   justify-content: center;
-  padding: 2rem 1rem;
+  padding: calc(0.25rem * 13) 1rem;
+}
+
+.body-text h1 {
+  font-size: 2rem;
+  line-height: calc(0.25rem * 13);
+}
+
+.body-text h2 {
+  font-size: 1.75rem;
+  line-height: calc(0.25rem * 12);
+}
+
+.body-text h3 {
+  font-size: 1.5rem;
+  line-height: calc(0.25rem * 10);
+}
+
+.body-text h4 {
+  font-size: 1.3125rem;
+  line-height: calc(0.25rem * 9);
+}
+
+.body-text h5 {
+  font-size: 1.125rem;
+  line-height: calc(0.25rem * 8);
+}
+
+.body-text h6 {
+  font-size: 0.875rem;
+  line-height: calc(0.25rem * 6);
+}
+
+.body-text p {
+  font-size: 1rem;
+  line-height: calc(0.25rem * 7);
 }
