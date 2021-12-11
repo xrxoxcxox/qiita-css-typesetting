@@ -24,31 +24,37 @@ body {
 }
 
 .body-text h1 {
+  font-feature-settings: "palt";
   font-size: 2rem;
   line-height: calc(0.25rem * 13);
 }
 
 .body-text h2 {
+  font-feature-settings: "palt";
   font-size: 1.75rem;
   line-height: calc(0.25rem * 12);
 }
 
 .body-text h3 {
+  font-feature-settings: "palt";
   font-size: 1.5rem;
   line-height: calc(0.25rem * 10);
 }
 
 .body-text h4 {
+  font-feature-settings: "palt";
   font-size: 1.3125rem;
   line-height: calc(0.25rem * 9);
 }
 
 .body-text h5 {
+  font-feature-settings: "palt";
   font-size: 1.125rem;
   line-height: calc(0.25rem * 8);
 }
 
 .body-text h6 {
+  font-feature-settings: "palt";
   font-size: 0.875rem;
   line-height: calc(0.25rem * 6);
 }
