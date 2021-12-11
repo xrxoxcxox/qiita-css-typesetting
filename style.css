@@ -11,3 +11,9 @@
 ::after {
   box-sizing: border-box;
 }
+.body-text {
+  display: grid;
+  grid-template-columns: min(100%, 35em);
+  justify-content: center;
+  padding: 2rem 1rem;
+}
