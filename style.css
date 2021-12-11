@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'YakuHanJPs_Noto', 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 .body-text {
   display: grid;
   grid-template-columns: min(100%, 35em);
